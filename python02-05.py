@@ -112,3 +112,18 @@ print()
 dic = {"name":"pey", "phone":"012312313", "birth":"1228"}
 print("dic.get(key) 방식으로 없는 키 사용 : {0}" .format(dic.get("tel")))
 print("dic[key] 방식으로 없는 키 사용 : {0}".format(dic["tel"]))
+#dic.get(key) 방식으로 없는 키 사용 : None
+#Traceback (most recent call last):
+#  File "python02-05.py", line 114, in <module>
+#    print("dic[key] 방식으로 없는 키 사용 : {0}".format(dic["tel"]))
+#KeyError: 'tel'
+
+
+#자료형의 참과 거짓
+#문자열은 빈 문자열이 아니면 true, 빈 문자열은 false
+#리스트는 빈 리스트가 아니면 true, 빈 리스트면 false
+#튜플은 리스트와 동일
+#딕셔너리도 리스트와 동일
+#숫자형은 0이 아닌 모든 수는 true, 0은 false
+#값 None는 false
+print()
